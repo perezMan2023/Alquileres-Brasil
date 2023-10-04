@@ -32,6 +32,7 @@ nav a{
 }
 main {
     padding: 10px;
+    height: 100%;
 }
         /*-------- ZONA DE ALQUILERES------------- */
 .banner-location{
@@ -123,9 +124,10 @@ h2{
     flex-direction: column;
     width: 100%;
 }
-/* .map{
-    display: flex;  
-} */
+.map{
+    box-shadow:7px 13px 37px #000;
+    
+} 
 .container{
     padding: 15px;
     background-color: #a3d46f;
@@ -136,31 +138,29 @@ h2{
 
 .container h3 p p {
     padding: 0 40px;
+   
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
+
                     /* ---------FORMULARIO------------- */
 
 
 .form-register{
-    display: block;
-    background-color: rgb(81, 44, 116);
-    width: 400px;
-    height:500px ;
+    display:block;
+    background-color: rgb(218, 225, 213);
+    width: 650px;
+    height:570px ;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     border-radius: 30px;   
     margin: auto;
     margin-top: 50px;
     font-family:  Calibri, sans-serif;
     box-shadow: 7px 13px 37px #000;
-    
+    position: relative;
+    right: -400px;
+    top: -650px;
 }
 .form-register h3{
     font-size: 1.8em;
@@ -187,11 +187,11 @@ footer {
    
 }
 .form-register a{
-    color: white;
+    color: rgb(10, 0, 0);
     text-decoration: none;
 }
 .form-register a:hover{
-    color: white;
+    color:  rgb(6, 0, 0);;
     text-decoration: underline;
 }
 .form-register .botons{
@@ -202,5 +202,13 @@ footer {
     border-radius: ;
     font-weight: bold;
     border-radius: 10px;
-
+}
+footer {
+    position: relative;
+    top:-660px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
 }
